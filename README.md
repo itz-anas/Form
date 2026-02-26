@@ -32,7 +32,7 @@
 - `POST /api/login`
 
 ## To view Entries in tabular form
-- Use in SQL Workbench
+- Use in MYSQL Workbench
 ```
 USE defaultdb;
 SELECT uid, username, useremail, phone, password
