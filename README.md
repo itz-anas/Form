@@ -32,8 +32,9 @@
 - `POST /api/login`
 
 ## To view Entries in tabular form
-
-```USE defaultdb;
+- Use in SQL Workbench
+```
+USE defaultdb;
 SELECT uid, username, useremail, phone, password
 FROM users
 ORDER BY uid ASC;
